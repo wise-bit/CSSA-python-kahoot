@@ -1,4 +1,5 @@
-def canMakeArithmeticProgression(arr):
+
+def can_make_arithmetic_progression(arr):
 	arr.sort()
 
 	if len(arr) == 1:
@@ -11,3 +12,7 @@ def canMakeArithmeticProgression(arr):
 			return False
 
 	return True
+
+
+sol = can_make_arithmetic_progression([1, 4, 7, 10])
+print(sol)

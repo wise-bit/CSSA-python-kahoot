@@ -1,5 +1,5 @@
 
-def twoSumInefficient(nums, target):
+def two_sum_inefficient(nums, target):
 
 	for i in range(len(nums)):
 		for j in range(i+1, len(nums)):
@@ -8,7 +8,7 @@ def twoSumInefficient(nums, target):
 	return None
 
 
-def twoSumEfficient(nums, target):
+def two_sum_efficient(nums, target):
 
 	pair = {}
 
@@ -19,3 +19,7 @@ def twoSumEfficient(nums, target):
 			pair[nums[i]] = i
 
 	return None
+
+
+sol = two_sum_inefficient([3, 2, 4], 6)
+print(sol)
