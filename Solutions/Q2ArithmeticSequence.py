@@ -1,4 +1,3 @@
-
 def can_make_arithmetic_progression(arr):
 	arr.sort()
 

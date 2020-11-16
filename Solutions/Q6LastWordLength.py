@@ -1,4 +1,3 @@
-
 def last_word_length(s):
 	s = s.strip() 
 	length = 0

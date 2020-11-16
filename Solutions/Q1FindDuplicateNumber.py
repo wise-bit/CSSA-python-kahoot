@@ -1,4 +1,3 @@
-
 def find_duplicate_inefficient(arr):
 	for i in range(len(arr)):
 		for j in range(i+1, len(arr)):

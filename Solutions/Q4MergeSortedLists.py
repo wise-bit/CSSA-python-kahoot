@@ -1,4 +1,3 @@
-
 def merge_two_lists_inefficient(l1, l2):
 	return sorted(l1 + l2) # Joins the two lists and sorts them to get ascending integers
 

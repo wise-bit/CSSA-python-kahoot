@@ -1,4 +1,3 @@
-
 def diagonal_sum(matrix):
 	n = len(matrix)
 	total = 0
